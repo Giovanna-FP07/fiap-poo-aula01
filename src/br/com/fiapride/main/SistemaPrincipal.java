@@ -20,9 +20,11 @@ public class SistemaPrincipal {
        bilhete2.dataValidade = LocalDate.of(2025, 5, 10);
        
        System.out.println("Bilhete 1 tipo: " + bilhete1.tipo
-    		   + "e saldo: " + bilhete1.saldo);
+    		   + ", saldo: " + bilhete1.saldo
+						 + "e data de validade: " + bilhete1.dataValidade);
        System.out.println("Bilhete 2 tipo: " + bilhete2.tipo
-       		+ "e saldo: " + bilhete2.saldo);
+       		+ ", saldo: " + bilhete2.saldo
+						 + "e data de validade: " + bilhete2.dataValidade);
        
    }
 }
